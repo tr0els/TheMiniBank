@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{EED86634-CAFF-4DAA-BF62-5A2133ADE0F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{008D4AAC-2DCF-4E6A-9110-3844B49E17A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{11FE0E57-58AF-4B38-B847-377D6BCD968E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{BA3C17A6-2D42-4F8F-B1E0-6EA3261894CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBank.Core.Entities", "MiniBank.Core.Entities\MiniBank.Core.Entities.csproj", "{0D4FC73A-C8C6-4D78-B7F9-23F66D9C79E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBank.Core", "MiniBank.Core\MiniBank.Core.csproj", "{0589351B-CC08-4E5B-9CB6-A833D060845B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBank.UI.ConsoleApp", "MiniBank.UI.ConsoleApp\MiniBank.UI.ConsoleApp.csproj", "{7CF8928D-693E-487A-B49B-F3CCECCFAE48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBank.Infrastructure.Data", "MiniBank.Infrastructure.Data\MiniBank.Infrastructure.Data.csproj", "{87170C13-F03B-4AF6-8302-C38851C6D543}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EED86634-CAFF-4DAA-BF62-5A2133ADE0F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED86634-CAFF-4DAA-BF62-5A2133ADE0F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED86634-CAFF-4DAA-BF62-5A2133ADE0F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED86634-CAFF-4DAA-BF62-5A2133ADE0F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D4FC73A-C8C6-4D78-B7F9-23F66D9C79E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4FC73A-C8C6-4D78-B7F9-23F66D9C79E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4FC73A-C8C6-4D78-B7F9-23F66D9C79E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4FC73A-C8C6-4D78-B7F9-23F66D9C79E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0589351B-CC08-4E5B-9CB6-A833D060845B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0589351B-CC08-4E5B-9CB6-A833D060845B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0589351B-CC08-4E5B-9CB6-A833D060845B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0589351B-CC08-4E5B-9CB6-A833D060845B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CF8928D-693E-487A-B49B-F3CCECCFAE48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF8928D-693E-487A-B49B-F3CCECCFAE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF8928D-693E-487A-B49B-F3CCECCFAE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF8928D-693E-487A-B49B-F3CCECCFAE48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87170C13-F03B-4AF6-8302-C38851C6D543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87170C13-F03B-4AF6-8302-C38851C6D543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87170C13-F03B-4AF6-8302-C38851C6D543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87170C13-F03B-4AF6-8302-C38851C6D543}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D4FC73A-C8C6-4D78-B7F9-23F66D9C79E7} = {008D4AAC-2DCF-4E6A-9110-3844B49E17A4}
+		{0589351B-CC08-4E5B-9CB6-A833D060845B} = {008D4AAC-2DCF-4E6A-9110-3844B49E17A4}
+		{7CF8928D-693E-487A-B49B-F3CCECCFAE48} = {11FE0E57-58AF-4B38-B847-377D6BCD968E}
+		{87170C13-F03B-4AF6-8302-C38851C6D543} = {BA3C17A6-2D42-4F8F-B1E0-6EA3261894CC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAE57FC0-0D91-4705-92DD-66E3E5E9E2EA}
+	EndGlobalSection
+EndGlobal
